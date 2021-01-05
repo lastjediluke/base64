@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+	
+	<title>Zipped Base64 Decoder</title>
+	
+	<link rel="stylesheet" href="main.css">
+	
+</head>
+<body>
+  <header>
+    <h1 align="center">Base64 Decoding</h1>
+  </header>
+
+  <label for="base64">Input your zipped base64 string here:</label>
+  <br>
+  <textarea id="base_string" name="base_string_textarea" rows="20" cols="50">
+  </textarea>
+  <br>
+  <button onclick="get_string()">Submit</button>
+  <div id="result">
+    my div
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/pako/1.0.3/pako.min.js"></script>
+  <!-- <script src="pako.js"></script> -->
+	<script src="main.js"></script>
+</body>
+</html>
